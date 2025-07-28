@@ -1,8 +1,6 @@
-# Quran Tab
+# Around The World
 
 ## [🌟Live Link🌟](https://around-the-world-sepia.vercel.app/)
-
-![ Around-the-world ]
 
 
 ## License
