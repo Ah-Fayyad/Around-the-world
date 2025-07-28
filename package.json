@@ -3,12 +3,16 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
-  },
+  "homepage": "https://ah-fayyad.github.io/Around-the-world",
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+  "preview": "vite preview",
+  "deploy": "npm run build && gh-pages -d dist",
+  "full-deploy": "git add . && git commit -m \"Auto commit\" && git push && npm run deploy"
+}
+,
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
